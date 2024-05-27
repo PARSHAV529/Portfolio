@@ -8,6 +8,10 @@ import {
     Redux,
     ReactQuery,
     NextJS,
+    JAVA,
+    SpringBoot,
+    AndroidStudio,
+    Cpp,
     Bootstrap,
     // Jest,
     // TestingLibrary,
@@ -35,6 +39,7 @@ import {
     GitHub,
     NPM,
     VSCode,
+
     // ESLint,
     // Prettier,
   } from "@/icons";
@@ -75,6 +80,23 @@ import {
     {
       icon: <NextJS />,
       text: "NextJS",
+    },
+    {
+      icon: <JAVA />,
+      text: "JAVA",
+    },
+    {
+      icon: <SpringBoot />,
+      text: "SpringBoot",
+    },
+    {
+      icon: <Cpp />,
+      text: "c++",
+    },
+   
+    {
+      icon: <AndroidStudio />,
+      text: "Android Studio",
     },
     {
       icon: <Bootstrap />,

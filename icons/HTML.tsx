@@ -1,8 +1,8 @@
 const HTML = () => {
   return (
     <svg
-      fill="#f6f6f6"
-      role="img"
+    fill="#f6f6f6"
+    role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -13,3 +13,5 @@ const HTML = () => {
 };
 
 export default HTML;
+
+

@@ -38,3 +38,7 @@ export { default as TestingLibrary } from "./TestingLibrary";
 export { default as TypeScript } from "./TypeScript";
 export { default as Vite } from "./Vite";
 export { default as VSCode } from "./VSCode";
+export { default as JAVA } from "./java";
+export { default as SpringBoot } from "./springboot";
+export { default as AndroidStudio } from "./AndroidStudio";
+export { default as Cpp } from "./CPP2";
