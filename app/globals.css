@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --line-color: #e5e7eb;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7CB9E8;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6F00FF;
+}
+
+.borderBlack {
+  @apply border border-black/10;
+}
+
+.header-nav{
+  background: rgb(184,229,255);
+  background: linear-gradient(180deg, rgba(184,229,255,1) 20%, rgba(162,193,224,1) 80%);
+}
+
+.quote-icon{
+  
+}
+
+.animate-waving-hand{
+-webkit-animation-iteration-count: 10;
+  animation-iteration-count: 10;
+}
+
+
+.background-animate {
+  background-size: 200%;
+
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+}
+
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}
+
+
+@keyframes AnimationName {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@media only screen and (max-width: 540px) { 
+  .quote-icon{
+    left:20px;
+  }
+  .open-modal-body{
+    top: 5rem;
+  }
+}
+
+.flip-card {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+  
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
