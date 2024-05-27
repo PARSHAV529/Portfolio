@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import img from '@/public/profile.png'
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-// import Lottie from "lottie-react";
+import Lottie from "lottie-react";
 import waveAnimation from "@/lib/waveAnimation.json";
 
 import IconButton from "../IconButton";
@@ -85,7 +85,7 @@ export default function Intro() {
           className="sm:-ml-20 lg:-ml-1 flex gap-0 flex-row items-center justify-center lg:justify-center text-center lg:text-center"
         >
           <div className="hidden sm:block translate-x-2 lg:translate-x-0 scale-[0.7] lg:scale-70">
-             {/* <Lottie animationData={waveAnimation} style={{ width: "100px" }} /> */}
+             <Lottie animationData={waveAnimation} style={{ width: "100px" }} />
           </div>
           <h1 className="text-3xl mr-4 lg:text-4xl text-gray-100 font-bold">
             Hey there!
