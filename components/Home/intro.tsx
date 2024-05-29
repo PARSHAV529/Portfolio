@@ -128,7 +128,7 @@ export default function Intro() {
           href="https://drive.google.com/file/d/1bJ9nybo__06dhTr8hGe-_-gVZhikh9hg/view?usp=drive_link"
           
         >
-          Download CV{" "}
+          View CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </Link>
 

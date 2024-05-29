@@ -104,6 +104,10 @@ html.dark {
   
 }
 
+.glass {
+  @apply bg-violet-600 bg-opacity-5 border border-violet-700 border-opacity-10 rounded-md backdrop-filter backdrop-blur-sm;
+}
+
 .flip-card-back {
   transform: rotateY(180deg);
 }
