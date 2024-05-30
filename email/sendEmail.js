@@ -1,10 +1,14 @@
 
 import emailjs from '@emailjs/browser';
+import toast from 'react-hot-toast';
+ 
+
 
 const sendEmail = (templateParams) => {
-    emailjs.send('service_1kb3ylc', 'template_w97hxyi', templateParams, 'gvEcdVDwX4As8OroG')
+    emailjs.send('service_pzurye5', 'template_vl493sj', templateParams, 'js8P9UismTMve7qZq')
         .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
+        toast.success("Message was send!");
         }, (error) => {
         console.log('FAILED...', error);
         });

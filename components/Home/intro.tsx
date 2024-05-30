@@ -125,8 +125,7 @@ export default function Intro() {
 
         <Link
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://drive.google.com/file/d/1bJ9nybo__06dhTr8hGe-_-gVZhikh9hg/view?usp=drive_link"
-          
+          href="https://drive.google.com/file/d/124quj0saZf67TifAvYBcsH7PQofCaY2X/view?usp=drive_link"
         >
           View CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />

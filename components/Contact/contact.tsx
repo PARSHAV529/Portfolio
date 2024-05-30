@@ -2,7 +2,7 @@
 "use client";
 
 import React, { useState } from "react";
-import SectionHeading from "../section-heading";
+import SectionHeading from "@/components/sectionHeading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import sendEmail from "../../email/sendEmail";
@@ -15,24 +15,7 @@ export default function Contact() {
 
   const { ref } = useSectionInView("Contact");
 
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-
-  const handleChange = (event: any) => {
-      setFormData({ ...formData, [event.target.name]: event.target.value });
-  };
-
-  const submitHandler = (e: any) => {
-      e.preventDefault();
-      sendEmail(formData);
-      setFormData({ name: '', email: '', message: '' });
-  };
-
-  const notify = () => toast.success("Message was send!");
-
+ 
   return (
     <motion.section
       className="w-[min(100%,70rem)] text-center"
@@ -50,7 +33,7 @@ export default function Contact() {
       }}
     >
       <section id="contact" ref={ref} className="scroll-mt-28 mb-14 sm:mb-40">
-        <SectionHeading>Contact me</SectionHeading>
+        <SectionHeading text="Contact " gradient="me"/>
         <ToastContainer
           position="top-center"
           autoClose={5000}
