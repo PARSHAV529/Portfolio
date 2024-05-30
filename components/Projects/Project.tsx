@@ -8,15 +8,13 @@ import ProjectImage from "./ProjectImage";
 type Props = {
   inView: boolean;
   id: number;
-  webpSrc: string;
-  pngSrc: string;
   imageHeight: number;
   title: string;
   description: string;
   tags: string[];
-  collaborators?: { username: string; image: string }[];
   link: string;
   github: string;
+  img:any;
 };
 
 const ProjectsItem: React.FC<Props> = ({ inView, ...props }) => {
