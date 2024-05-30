@@ -143,7 +143,7 @@ export default function Intro() {
               <FaMeta size={30} />
             </IconButton>
           </Link>
-          <Link target="_blank" href="https://www.linkedin.com/in/jannick-pedersen-3b8a36119" className="flex-auto">
+          <Link target="_blank" href="https://www.linkedin.com/in/parshav-andhariya-85b281272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="flex-auto">
             <IconButton text="LinkedIn" color="bg-gradient-to-r from-indigo-500 to-purple-700">
               <FaLinkedin size={30} />
             </IconButton>
