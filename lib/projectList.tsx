@@ -2,6 +2,8 @@ import investment from '@/public/investment_calc.png'
 import framer from '@/public/framer.png'
 import quiz from '@/public/Quiz.png'
 import food from "@/public/GoodFood.png"
+import img from "@/public/Annonymus.jpg"
+
 
 export const projectsList = [
   
@@ -78,6 +80,28 @@ export const projectsList = [
       
     ],
     img:food
+  },
+  {
+    id: 5,
+    title: "Anonymous Message",
+    description:'a Next.js web application designed for anonymous messaging and seamless user experiences. \n 1. *Anonymous Messaging*: Users can send messages anonymously, ensuring their identity remains hidden. \n 2. *Dashboard*: A dedicated dashboard where users can view the messages they’ve received.',
+    imageHeight: 800,
+    link: "https://anonymous-msg-one.vercel.app/u/parshav143",
+    github: "https://github.com/PARSHAV529/anonymous-msg",
+    tags: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Next Js",
+      "MongoDB",
+      "NextAuth",
+      "Tailwind CSS",
+      "Zod-Schema Validation",
+      'shadcn Ui'
+
+      
+    ],
+    img:img
   },
  
 ];
