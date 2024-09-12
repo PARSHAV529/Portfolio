@@ -108,6 +108,7 @@ export const projectsList = [
     title: "Project Management",
     description:'a ReactJs and SpringBoot Aplication To manage Projects.',
     imageHeight: 800,
+    link: "",
     github: "https://github.com/PARSHAV529/Project-Management",
     tags: [
       "HTML",
@@ -117,7 +118,7 @@ export const projectsList = [
       "MySql",
       "SpringBoot"
       ],
-    
+    img:img
   },
  
 ];
