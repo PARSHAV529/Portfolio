@@ -3,6 +3,7 @@ import framer from '@/public/framer.png'
 import quiz from '@/public/Quiz.png'
 import food from "@/public/GoodFood.png"
 import img from "@/public/Annonymus.jpg"
+import free from "@/public/image.png"
 
 
 export const projectsList = [
@@ -119,6 +120,20 @@ export const projectsList = [
       "SpringBoot"
       ],
     img:img
+  },
+  {
+    id: 7,
+    title: "Saturn Tiles Website",
+    description:'Developed a responsive website using HTML, CSS, and JavaScript to showcase products and services.Ensured cross-browser compatibility and mobile optimization for a seamless user experience',
+    imageHeight: 800,
+    link: "https://saturntiles.com/",
+    github: "",
+    tags: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      ],
+    img:free
   },
  
 ];
